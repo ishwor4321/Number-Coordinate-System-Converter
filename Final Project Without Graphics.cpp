@@ -26,6 +26,7 @@ class Digital_Converter: virtual public Converter
 {
 	private:
 		int choice;
+		// First Part
 		void Convert_DecimalTo_Binary(int Decimal_Number)
 		{
 			int i=0, rem, BinaryDigit=0, temp=1;
@@ -164,6 +165,7 @@ class Digital_Converter: virtual public Converter
 				rev/=10;
 			}
 		}
+		// Second Part
 		int Convert_Binary_To_Decimal(int Binary_Number)
 		{
 			int Decimal_Number=0, i=0, rem;
